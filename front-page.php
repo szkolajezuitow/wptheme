@@ -69,7 +69,11 @@
 							$feat_image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' );
                          ?>
 
-							<a href="<?php the_permalink(); ?>"><div id="message_box" class="tipped box backg" title="<?php the_title(); ?>" style="background-image: url(<?php echo $feat_image[0]; ?>)"></div></a>
+							<a href="<?php the_permalink(); ?>"><div id="message_box" class="tipped box backg" title="<?php the_excerpt(); ?>" style="background-image: url(<?php echo $feat_image[0]; ?>)">
+
+
+                                    <div id="titleCube"><?php the_title(); ?></div>
+                                </div></a>
 
 						<?php endwhile; else: ?>
 							<p><?php _e('Sorry, no posts matched your criteria.', 'lawyeria-lite'); ?></p>

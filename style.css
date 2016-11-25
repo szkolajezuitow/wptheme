@@ -188,6 +188,20 @@ body {
 
 }
 
+#titleCube{
+
+    position: relative;
+    width: 211px;
+    height: auto;
+    background: #520000;
+    color: white;
+    font-size: small;
+    text-wrap: normal;
+    top: 190px;
+
+
+}
+
 #message_box{
 
     float: left;
