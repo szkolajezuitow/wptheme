@@ -8,18 +8,19 @@
 		<footer id="footer">
 			<div class="wrapper cf">
 				<div class="footer-margin-left cf" style="margin-left: 10px;">
-					<span style="line-height: 130%">
+					<div style="line-height: 130%; float: left; ">
 						<b>Szkoła Jezuitów</b><br>
 						ul. Tatrzańska 35 <br>
 						81-313 Gdynia <br><br>
 						<b>NIP:</b> 586-22-87-077 <br>
 						<b>REGON:</b> 221998243   <br>
 
-					</span>
-				</div><!--/div .footer-margin-left .cf-->
-				<div class="cf" style="float: left;">
+					</div>
 
-				</div>
+					<div  style="float: left;">
+
+					</div>
+				</div><!--/div .footer-margin-left .cf-->
 			</div><!--/div .wrapper .cf-->
 		</footer><!--/footer #footer-->
 		<?php wp_footer(); ?>

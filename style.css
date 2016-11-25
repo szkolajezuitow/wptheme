@@ -261,6 +261,9 @@ body {
   *zoom: 1;
 }
 
+.padding{
+  padding-left: 220px
+}
 
 #logoPlacement {
   position: absolute;
@@ -3593,8 +3596,12 @@ p.lawyers-no-posts {
 @media only screen and (max-width: 1024px) {
   body {
     max-width: 1024px;
+    overflow-x: hidden;
   }
 
+  .header-search{
+    display: none;
+  }
   .wrapper {
     width: 94%;
   }
@@ -3609,6 +3616,9 @@ p.lawyers-no-posts {
     float: none;
   }
 
+  .padding{
+    padding-left: 20px;
+  }
   .openresponsivemenu {
       width: 67.66%;
       background: #394753;

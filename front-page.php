@@ -28,7 +28,7 @@
 
 					<div class="subheader-color cf">
 						<div class="wrapper cf">
-							<div class="motto"><h3>Ludzie dla innych</h3></div>
+							<div class="motto"><h3>Szkoła Podstawowa</h3></div>
 							<div class="full-header-content full-header-content-no-sidebar" style="padding-top: 100px">
 
 								<?php

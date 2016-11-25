@@ -59,4 +59,14 @@
 					?>
 						<img src="<?php header_image(); ?>" alt="" class="lawyeria-lite-header-image" />
 				<?php endif; ?>
-			</div>	
+
+                <div><a href="/">Szkoła Podstawowa</a>
+                    <?php
+
+
+
+                    ?>
+
+
+                </div>
+            </div>

@@ -15,12 +15,16 @@
 			</section><!--/section .wide-nav-->
 		</header>
 		<section id="content">
-			<div class="wrapper cf" style="padding-left: 220px">
+			<div class="wrapper cf padding">
 				<div id="posts" style="margin-top: 90px;">
+
+					</div>
+					<br><br><br>
 					<?php
 						if ( have_posts() ) : while ( have_posts() ) : the_post();
 						$feat_image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' );
 					?>
+
 					<div class="post">
 
 						<?php
@@ -45,7 +49,7 @@
 						</div><!--/div .post-tags-->
 						<div class="post-meta">
 							<span>
-								<b><?php echo get_the_date(); ?> - <?php _e('Posted by:','lawyeria-lite'); ?> <?php the_author_posts_link(); ?><b/>
+								<b><?php echo get_the_date(); ?></b>
 							</span><!--/span-->
 						</div><!--/div .post-meta-->
 					</div><!--/div .post-->
