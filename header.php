@@ -59,10 +59,43 @@
 					?>
 						<img src="<?php header_image(); ?>" alt="" class="lawyeria-lite-header-image" />
 				<?php endif; ?>
+                <?php if(!is_front_page()){ ?>
+                <div id="path_page"><a href="/podstawowa/">Szkoła Podstawowa</a><span style="color: black;"> > </span>
+                <?php } ?>
 
-                <div><a href="/">Szkoła Podstawowa</a>
+
                     <?php
+                    global $post;
 
+                    $parentID = get_root_parent_id(get_the_ID());
+
+                    if(get_the_ID() == $parentID) {
+
+                        echo '<a href="' . get_page_link() . '">' . get_the_title() . '</a>';
+
+                    }else{
+
+
+                        $parentURL = get_page_link($parentID);
+                        $parentNAME = get_the_title($parentID);
+
+
+                        echo '<a href="' . $parentURL . '">' . $parentNAME . '</a><span style="color: black;"> > </span>';
+
+
+                        if(is_page() && $post->post_parent != $parentID){
+
+                            $parentURL = get_page_link($post->post_parent);
+                            $parentNAME = get_the_title($post->post_parent);
+
+                            echo '<a href="' . $parentURL . '">' . $parentNAME . '</a><span style="color: black;"> > </span>';
+
+
+                        }
+                        echo '<a href="' . get_page_link() . '">' . get_the_title() . '</a>';
+
+
+                    }
 
 
                     ?>

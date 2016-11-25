@@ -6,6 +6,15 @@
 
 require_once ( 'includes/customizer.php' );
 
+function get_root_parent_id( $page_id ) {
+    global $wpdb;
+    $parent = $wpdb->get_var( "SELECT post_parent FROM $wpdb->posts WHERE post_type='page' AND post_status='publish' AND ID = '$page_id'" );
+    if( $parent == 0 ) {
+        return $page_id;
+    } else {
+        return get_root_parent_id( $parent );
+    }
+}
 
 /**
  *  Content Width

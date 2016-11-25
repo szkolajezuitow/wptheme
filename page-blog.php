@@ -40,8 +40,8 @@
 						</h3><!--/h3-->
 						<div class="post-meta">
 							<span>
-								<?php echo get_the_date(); ?> - <?php _e('Posted by:','lawyeria-lite'); ?> <?php the_author_posts_link(); ?>
-								</span>
+								<?php echo get_the_date(); ?>
+							</span>
 						</div><!--/div .post-meta-->
 						<?php
 							if ( $feat_image != NULL ) { ?>

@@ -162,7 +162,13 @@ body {
 }
 
 
+#path_page{
+  width: 600px;
+  position: relative;
+  top: 130px;
+  padding-left: 110px;
 
+}
 .motto {
     position: fixed;
     padding-top: 50px;
@@ -404,7 +410,7 @@ nav div > ul > li {
   -ms-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-position: top center;
+  background-position: center;
 }
 #subheader .subheader-color {
   width: 100%;
