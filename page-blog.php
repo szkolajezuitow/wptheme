@@ -17,7 +17,7 @@
 			</section><!--/section .wide-nav-->
 		</header><!--/header-->
 		<section id="content">
-			<div class="wrapper cf"  style="padding-left: 220px;">
+			<div class="wrapper cf padleft">
 
 				<div id="posts" style="margin-top: 90px;">
 					<?php

@@ -7,7 +7,7 @@
 		get_header();
 		?>
 			<section class="wide-nav">
-				<div class="wrapper" style="padding-left: 220px">
+				<div class="wrapper padleft">
 					<h3>
 						<?php the_search_query(); ?>
 					</h3><!--/h3-->
@@ -15,8 +15,8 @@
 			</section><!--/section .wide-nav-->
 		</header><!--/header-->
 		<section id="content">
-			<div class="wrapper cf" style="padding-left: 220px">
-				<div id="posts">
+			<div class="wrapper cf padleft">
+				<div id="posts" style="margin-top: 100px">
 					<?php
 						if ( have_posts() ) : while ( have_posts() ) : the_post();
 						$feat_image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' );
@@ -29,7 +29,7 @@
 						</h3><!--/h3 .post-title-->
 						<div class="post-meta">
 							<span>
-								<?php echo get_the_date(); ?> - <?php _e('Posted by:','lawyeria-lite'); ?> <?php the_author_posts_link(); ?> - <?php _e('In category:','lawyeria-lite'); ?> <?php the_category(', '); ?> - <a href="<?php the_permalink(); ?>#comments-template" title="<?php comments_number( __('No responses','lawyeria-lite'), __('One comment','lawyeria-lite'), __('% comments','lawyeria-lite') ); ?>"><?php comments_number( __('No responses','lawyeria-lite'), __('One comment','lawyeria-lite'), __('% comments','lawyeria-lite') ); ?></a>
+								<?php echo get_the_date(); ?>
 							</span><!--/span-->
 						</div><!--/div .post-meta-->
 						<?php

@@ -7,15 +7,15 @@
 		get_header();
 		?>
   			<section class="wide-nav">
-				<div class="wrapper" style="padding-left: 220px;" >
+				<div class="wrapper padleft" >
 					<h3 style="margin-top: 15px;">
 						<?php the_title(); ?>
-					</h3><!--/h3-->
+                        </h3><!--/h3-->
 				</div><!--/div .wrapper-->
 			</section><!--/section .wide-nav-->
 		</header><!--/header-->
 		<section id="">
-			<div class="wrapper cf" style="padding-left: 220px;">
+			<div class="wrapper cf padleft">
 				<div id="posts" style="margin-top: 150px;">
 					<?php
 

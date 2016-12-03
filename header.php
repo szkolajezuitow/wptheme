@@ -28,12 +28,12 @@
 			<div class="wide-menu">
                 <div class="wrapper cf">
                     <div id="logoPlacement">
-                        <a href="/podstawowa" target="_self"><img style="width: 30%; height: 30%;" src="<?php echo get_template_directory_uri().'/images/logo.png'; ?>" /></a>
+                        <a href="/podstawowa" target="_self" ><img style="width: 30%; height: 30%;"  data-tipped-options="position: 'left'" class="tipped" title="Strona główna" src="<?php echo get_template_directory_uri().'/images/logo.png'; ?>" /></a>
                     </div>
 
                     <nav style="margin-left: 100px">
                         <div class="openresponsivemenu">
-                            <?php _e('Otwórz menu','lawyeria-lite'); ?>
+                            <?php _e('Menu','lawyeria-lite'); ?>
                         </div><!--/div .openresponsivemenu-->
                         <div class="container-menu cf">
                             <?php

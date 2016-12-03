@@ -193,13 +193,32 @@ body {
     position: relative;
     width: 211px;
     height: auto;
-    background: #520000;
+    background: #3c3f41;
     color: white;
     font-size: small;
     text-wrap: normal;
+    text-align: center;
     top: 190px;
 
 
+}
+
+#map {
+  width: 400px;
+  height: 250px;
+}
+
+
+a{
+
+  color:  #8e9091;
+  text-decoration: none;
+
+
+}
+a:hover{
+
+  color: #555758;
 }
 
 #message_box{
@@ -221,6 +240,10 @@ body {
     border: 1px dotted black;
     margin-right: 25px;
     margin-bottom: 20px;
+}
+
+.padleft{
+  padding-left: 220px;
 }
 
 .header-search {
@@ -371,9 +394,11 @@ nav li a {
   color: #fff;
   text-decoration: none;
   border: 1px solid #3c3f41;
+  color: #fff;
 }
 nav li a:hover {
     border: 1px solid #000;
+    color: #fff;
 }
 nav li ul {
   top: 30px;
@@ -398,10 +423,12 @@ nav li ul li a {
   border: none;
   font-size: 14px;
   float: left;
+  color: #fff;
 }
 nav li ul li a:hover {
     background: #394753;
     border: none;
+    color: #fff;
 }
 nav li ul ul {
   background: #3c3f41;
@@ -424,7 +451,7 @@ nav div > ul > li {
   -ms-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-position: center;
+  background-position: top;
 }
 #subheader .subheader-color {
   width: 100%;
@@ -449,7 +476,7 @@ nav div > ul > li {
   -webkit-text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.4);
   -ms-text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.4);
   line-height: 42px;
-  font-family: "Roboto Slab", sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: 36px;
 }
 #subheader .subheader-color .full-header-content p {
@@ -562,7 +589,7 @@ nav div > ul > li {
   resize: none;
   outline: 0px;
   border: 1px solid #d4d4d4;
-  font-family: 'MS Shell Dlg', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: 400;
   font-size: 13.3333px;
 }
@@ -662,7 +689,7 @@ nav div > ul > li {
   margin: 0px 155px;
   line-height: 42px;
   color: #394753;
-  font-family: "Roboto Slab", sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 300;
   font-size: 36px;
 }
@@ -741,14 +768,14 @@ nav div > ul > li {
 }
 #content .content-article h3 {
   color: #394753;
-  font-family: "Roboto Slab", sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: 24px;
 }
 #content .content-article p {
   margin-top: 25px;
   line-height: 24px;
   color: #394753;
-  font-family: "Roboto Slab", sans-serif;
+  font-family: "Lato", sans-serif;
 }
 #content .content-about {
   width: 100%;
@@ -835,7 +862,7 @@ nav div > ul > li {
   margin-bottom: 30px;
   text-align: center;
   color: #394753;
-  font-family: "Roboto Slab", sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: 30px;
 }
 
@@ -1442,7 +1469,7 @@ nav div > ul > li {
   word-break: break-word;
   -moz-hyphens: auto;
   position: relative;
-  font-family: "Roboto Slab", sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 400;
   font-size: 24px;
 }
@@ -1467,7 +1494,7 @@ nav div > ul > li {
   width: 100%;
   margin-bottom: 30px;
   color: #394753;
-  font-family: "Roboto Slab", sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: 12px;
 }
 .post .post-meta a {
@@ -1505,32 +1532,32 @@ nav div > ul > li {
 }
 .post .post-excerpt h1 {
   margin: 20px 0px;
-  font-family: "Roboto Slab", sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: 28px;
 }
 .post .post-excerpt h2 {
   margin: 20px 0px;
-  font-family: "Roboto Slab", sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: 26px;
 }
 .post .post-excerpt h3 {
   margin: 20px 0px;
-  font-family: "Roboto Slab", sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: 24px;
 }
 .post .post-excerpt h4 {
   margin: 20px 0px;
-  font-family: "Roboto Slab", sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: 20px;
 }
 .post .post-excerpt h5 {
   margin: 20px 0px;
-  font-family: "Roboto Slab", sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: 18px;
 }
 .post .post-excerpt h6 {
   margin: 20px 0px;
-  font-family: "Roboto Slab", sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: 18px;
 }
 .post .post-excerpt blockquote {
@@ -1754,7 +1781,7 @@ nav div > ul > li {
   line-height: 30px;
   background: url("images/title-widget-border-bottom.png") repeat-x bottom;
   margin-bottom: 30px;
-  font-family: "Roboto Slab", sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: 18px;
 }
 #sidebar-right .widget ul {
@@ -2264,14 +2291,14 @@ nav div > ul > li {
   width: 100%;
   line-height: auto;
   margin: 10px 0px;
-  font-family: "Roboto Slab", sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: 22px;
 }
 #comments-template .comments-list li .comment-entry .comment-entry-content h2 {
   width: 100%;
   line-height: auto;
   margin: 10px 0px;
-  font-family: "Roboto Slab", sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: 20px;
 }
 #comments-template .comments-list li .comment-entry .comment-entry-content h3 {
@@ -2279,28 +2306,28 @@ nav div > ul > li {
   line-height: auto;
   margin: 10px 0px;
   color: #6D7C88;
-  font-family: "Roboto Slab", sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: 18px;
 }
 #comments-template .comments-list li .comment-entry .comment-entry-content h4 {
   width: 100%;
   line-height: auto;
   margin: 10px 0px;
-  font-family: "Roboto Slab", sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: 16px;
 }
 #comments-template .comments-list li .comment-entry .comment-entry-content h5 {
   width: 100%;
   line-height: auto;
   margin: 10px 0px;
-  font-family: "Roboto Slab", sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: 14px;
 }
 #comments-template .comments-list li .comment-entry .comment-entry-content h6 {
   width: 100%;
   line-height: auto;
   margin: 10px 0px;
-  font-family: "Roboto Slab", sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: 12px;
 }
 #comments-template .comments-list li .comment-entry .comment-entry-content p {
@@ -2691,7 +2718,7 @@ nav div > ul > li {
   padding-bottom: 20px;
   color: #394753;
   text-align: center;
-  font-family: "Roboto Slab", sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 300;
   font-size: 36px;
 }
@@ -2701,7 +2728,7 @@ nav div > ul > li {
   margin-top: 30px;
   text-align: center;
   color: #394753;
-  font-family: "Roboto Slab", sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 300;
   font-size: 18px;
 }
@@ -2739,7 +2766,7 @@ nav div > ul > li {
   display: block;
   color: #445d70;
   text-decoration: none;
-  font-family: "Roboto Slab", sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: 30px;
 }
 #lawyers-content .lawyers-content-lawyers .lawyer div.lawyer-entry {
@@ -2808,32 +2835,32 @@ nav div > ul > li {
 }
 #lawyers-single .lawyers-single-content h1 {
   margin: 20px 0px;
-  font-family: "Roboto Slab", sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: 28px;
 }
 #lawyers-single .lawyers-single-content h2 {
   margin: 20px 0px;
-  font-family: "Roboto Slab", sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: 26px;
 }
 #lawyers-single .lawyers-single-content h3 {
   margin: 20px 0px;
-  font-family: "Roboto Slab", sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: 24px;
 }
 #lawyers-single .lawyers-single-content h4 {
   margin: 20px 0px;
-  font-family: "Roboto Slab", sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: 20px;
 }
 #lawyers-single .lawyers-single-content h5 {
   margin: 20px 0px;
-  font-family: "Roboto Slab", sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: 18px;
 }
 #lawyers-single .lawyers-single-content h6 {
   margin: 20px 0px;
-  font-family: "Roboto Slab", sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: 18px;
 }
 #lawyers-single .lawyers-single-content blockquote {
@@ -2974,7 +3001,7 @@ nav div > ul > li {
   padding-bottom: 40px;
   line-height: 24px;
   color: #394753;
-  font-family: "Roboto Slab", sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 200;
   font-size: 18px;
 }
@@ -2987,7 +3014,7 @@ nav div > ul > li {
   width: 100%;
   line-height: 30px;
   color: #445d70;
-  font-family: "Roboto Slab", sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 700;
   font-size: 18px;
 }
@@ -3034,7 +3061,7 @@ nav div > ul > li {
   margin: 30px 0px 18px 0px;
   color: #445d70;
   font-weight: 700;
-  font-family: "Roboto Slab", sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: 18px;
 }
 #lawyers-post-type .lawyers-posts article .lawyer-post-name a {
@@ -3390,6 +3417,9 @@ p.lawyers-no-posts {
   body {
     max-width: 320px;
   }
+  .padleft{
+    padding-left: 0;
+  }
   #content ul.practice-areas-lists li {
       font-size: 18px !important;
   }
@@ -3399,6 +3429,11 @@ p.lawyers-no-posts {
   #lawyers-content .lawyers-content-lawyers .lawyer {
       height: auto !important;
   }
+
+  .header-search{
+    display: none;
+  }
+
 }
 /* 6.2 Max Width: 480px */
 @media only screen and (max-width: 480px) {
@@ -3456,6 +3491,14 @@ p.lawyers-no-posts {
     max-width: 580px !important;
   }
 
+  .header-search{
+    display: none;
+  }
+
+  .padleft{
+    padding-left: 5px;
+  }
+
   #features .features-box {
     width: 100% !important;
     margin-bottom: 30px;
@@ -3506,8 +3549,14 @@ p.lawyers-no-posts {
 @media only screen and (max-width: 768px) {
   body {
     max-width: 768px;
+    overflow-x: hidden;
   }
-
+  .padleft{
+    padding-left: 10px;
+  }
+  .header-search{
+    display: none;
+  }
   .lawyers-posts article {
     width: 100% !important;
     margin-left: 0px !important;
@@ -3539,9 +3588,6 @@ p.lawyers-no-posts {
     -ms-box-sizing: border-box;
   }
 
-  #posts {
-    width: 100% !important;
-  }
 
   #sidebar-right {
     width: 96.3% !important;
@@ -3612,18 +3658,67 @@ p.lawyers-no-posts {
     -ms-box-sizing: border-box;
   }
 }
-/* 6.5 Max Width: 1024px */
-@media only screen and (max-width: 1024px) {
-  body {
+
+@media only screen and (max-width: 1110px){
+
+
+ .padleft{
+   padding-left: 115px;
+ }
+}
+
+@media only screen and (max-width: 1024px){
+
+  body{
     max-width: 1024px;
-    overflow-x: hidden;
+
+  }
+
+  .padleft{
+
+      padding-left: 110px;
   }
 
   .header-search{
     display: none;
   }
+
+
+}
+
+/* 6.5 Max Width: 1024px */
+@media only screen and (max-width: 930px) {
+  body {
+    max-width: 930px;
+    overflow-x: hidden;
+  }
+
+  .padleft{
+    padding-left: 120px;
+  }
+
+  .motto {
+    position: fixed;
+    padding-top: 50px;
+    padding-left: 100px;
+    z-index:1002;
+
+  }
+
+  #posts {
+    width: 66.6% !important;
+  }
+
+  .motto h3 {
+    width: 100%;
+    font-weight: 700;
+    font-size: 18px;
+  }
+  .header-search{
+    display: none;
+  }
   .wrapper {
-    width: 94%;
+    width: 95%;
   }
 
   .wrapper nav {
@@ -3640,55 +3735,57 @@ p.lawyers-no-posts {
     padding-left: 20px;
   }
   .openresponsivemenu {
-      width: 67.66%;
-      background: #394753;
-      /*padding: 10px 0px; */
-      text-align: center;
-      display: block;
-      cursor: pointer;
-      font-size: 16px;
-      clear: both;
-      margin-top: 15px;
-    }
+    width: 67.66%;
+    /*padding: 10px 0px; */
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+    clear: both;
+    margin-top: 15px;
+  }
 
-    .container-menu ul {
-        display: none;
-    }
+  .container-menu ul {
+    display: none;
+  }
 
-    .responsivemenu ul {
-        display: block;
-    }
+  .responsivemenu ul {
+    display: block;
+  }
 
-    .responsivemenu ul li {
-        width: 100%;
-        height: auto;
-        margin-left: 0px;
-        text-align: center;
-        padding: 0;
-        margin: 0;
-    }
+  .responsivemenu ul li {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
 
-    .responsivemenu ul li a {
-        height: 30px;
-        line-height: 30px;
-        padding: 0px;
-        border: none;
-        width: 100%;
-    }
+  .responsivemenu ul li a {
+    height: 30px;
+    line-height: 30px;
+    padding: 0px;
+    border: none;
+    width: 100%;
+    color: #fff;
+  }
 
-    .responsivemenu ul li a:hover {
-        border: none;
-    }
+  .responsivemenu ul li a:hover {
+    border: none;
+    color: #fff;
+  }
 
-    .responsivemenu a:hover {
-        background: #dee0e2;
-    }
+  .responsivemenu a:hover {
+    background: #dee0e2;
+    color: #fff;
+  }
 
-    .responsivemenu li ul {
-        width: 100%;
-        position: initial;
-        box-shadow: initial;
-    }
+  .responsivemenu li ul {
+    width: 100%;
+    position: initial;
+    box-shadow: initial;
+  }
+
 
   #subheader .subheader-color .full-header-content {
     width: 100%;

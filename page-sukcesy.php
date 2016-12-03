@@ -17,7 +17,7 @@ get_header();
 </section><!--/section .wide-nav-->
 </header><!--/header-->
 <section id="content">
-    <div class="wrapper cf" style="padding-left: 220px">
+    <div class="wrapper cf padleft">
         <div id="posts">
             <?php
             $args = array (

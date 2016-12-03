@@ -7,16 +7,16 @@
 		get_header();
 		?>
 			<section class="wide-nav">
-				<div class="wrapper" style="padding-left: 220px">
-					<h3 style="margin-top: 20px;">
+				<div class="wrapper padleft">
+					<h3 style="margin-top: 15px;">
 						<?php the_title(); ?>
 					</h3><!--/h3-->
 				</div><!--/div .wrapper-->
 			</section><!--/section .wide-nav-->
 		</header>
 		<section id="content">
-			<div class="wrapper cf padding">
-				<div id="posts" style="margin-top: 90px;">
+			<div class="wrapper cf padleft">
+				<div id="posts" style="margin-top: 100px;">
 
 					</div>
 					<br><br><br>
