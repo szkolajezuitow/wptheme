@@ -192,6 +192,7 @@ body {
 #logoChange{
   width: 30%; height: 30%;
 }
+
 #titleCube{
 
     position: relative;
@@ -3683,6 +3684,10 @@ p.lawyers-no-posts {
   body {
     max-width: 930px;
     overflow-x: hidden;
+  }
+
+  #logoPlacement{
+    top: 55px;
   }
 
   #logoChange{

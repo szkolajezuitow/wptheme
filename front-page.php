@@ -26,7 +26,7 @@
 							<div class="full-header-content full-header-content-no-sidebar">
 
 
-                                <div class="baner">   <?php masterslider(3); ?> </div>
+                                <div class="baner">   <?php masterslider(1); ?> </div>
 							</div><!--/div .header-content-->
 						</div><!--/div .wrapper-->
 					</div><!--/div .full-header-color-->
