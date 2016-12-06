@@ -188,6 +188,10 @@ body {
 
 }
 
+
+#logoChange{
+  width: 30%; height: 30%;
+}
 #titleCube{
 
     position: relative;
@@ -308,8 +312,14 @@ a:hover{
   padding-left: 220px
 }
 
+.baner{
+
+padding-top: 30px;
+
+}
+
 #logoPlacement {
-  position: absolute;
+  position: fixed;
 }
 
 @font-face {
@@ -446,18 +456,12 @@ nav div > ul > li {
 #subheader {
   width: 100%;
   height: auto;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -ms-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-position: top;
 }
+
 #subheader .subheader-color {
   width: 100%;
   height: 100%;
   background: rgba(3,77,54, 0.2);
-  padding-bottom: 300px;
   box-shadow: 0px 0px 30px rgba(0, 0, 0, 1) inset;
   -moz-box-shadow: 0px 0px 30px rgba(0, 0, 0, 1) inset;
   -webkit-box-shadow: 0px 0px 30px rgba(0, 0, 0, 1) inset;
@@ -465,7 +469,6 @@ nav div > ul > li {
 }
 #subheader .subheader-color .full-header-content {
   width: 515px;
-  margin-top: 200px;
   float: left;
 }
 #subheader .subheader-color .full-header-content h3 {
@@ -1396,7 +1399,7 @@ nav div > ul > li {
 */
 /* 2.1 - Posts */
 #posts {
-  width: 680px;
+  width: 87.6%;
   float: left;
 }
 #posts form.post-password-form {
@@ -3417,9 +3420,6 @@ p.lawyers-no-posts {
   body {
     max-width: 320px;
   }
-  .padleft{
-    padding-left: 0;
-  }
   #content ul.practice-areas-lists li {
       font-size: 18px !important;
   }
@@ -3494,11 +3494,6 @@ p.lawyers-no-posts {
   .header-search{
     display: none;
   }
-
-  .padleft{
-    padding-left: 5px;
-  }
-
   #features .features-box {
     width: 100% !important;
     margin-bottom: 30px;
@@ -3569,6 +3564,8 @@ p.lawyers-no-posts {
     width: auto;
     height: 100% !important;
   }
+
+
 
   #subheader .header-form .wpcf7-text {
     width: 100% !important;
@@ -3659,18 +3656,13 @@ p.lawyers-no-posts {
   }
 }
 
-@media only screen and (max-width: 1110px){
 
 
- .padleft{
-   padding-left: 115px;
- }
-}
-
-@media only screen and (max-width: 1024px){
+@media only screen and (max-width: 1070px){
 
   body{
-    max-width: 1024px;
+    max-width: 1070px;
+    overflow-x: hidden;
 
   }
 
@@ -3693,14 +3685,18 @@ p.lawyers-no-posts {
     overflow-x: hidden;
   }
 
+  #logoChange{
+    width: 10%; height: 10%;
+  }
+
   .padleft{
-    padding-left: 120px;
+    padding-left: 90px;
   }
 
   .motto {
     position: fixed;
     padding-top: 50px;
-    padding-left: 100px;
+    padding-left: 110px;
     z-index:1002;
 
   }
@@ -3743,6 +3739,7 @@ p.lawyers-no-posts {
     font-size: 16px;
     clear: both;
     margin-top: 15px;
+    z-index: 10005;
   }
 
   .container-menu ul {
@@ -3768,6 +3765,7 @@ p.lawyers-no-posts {
     border: none;
     width: 100%;
     color: #fff;
+    z-index: 10005;
   }
 
   .responsivemenu ul li a:hover {
@@ -3944,9 +3942,6 @@ p.lawyers-no-posts {
     background: none;
   }
 
-  #posts {
-    width: 65.70%;
-  }
 
   #posts h3 {
       line-height: 38px;
@@ -4023,4 +4018,3 @@ p.lawyers-no-posts {
     height: 160px;
   }
 }
-

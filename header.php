@@ -28,7 +28,7 @@
 			<div class="wide-menu">
                 <div class="wrapper cf">
                     <div id="logoPlacement">
-                        <a href="/podstawowa" target="_self" ><img style="width: 30%; height: 30%;"  data-tipped-options="position: 'left'" class="tipped" title="Strona główna" src="<?php echo get_template_directory_uri().'/images/logo.png'; ?>" /></a>
+                        <a href="/podstawowa" target="_self" ><img id="logoChange" data-tipped-options="position: 'left'" class="tipped" title="Strona główna" src="<?php echo get_template_directory_uri().'/images/logo.png'; ?>" /></a>
                     </div>
 
                     <nav style="margin-left: 100px">
@@ -51,7 +51,6 @@
                     </div><!--/.header-contact-->
                 </div>
             </div>
-
 			<div class="wrapper">
 			<?php 
 					$has_header = get_header_image(); 

@@ -8,7 +8,7 @@
 		?>
 			<section class="wide-nav">
 				<div class="wrapper padleft">
-					<h3 style="margin-top: 15px;">
+					<h3 style="margin-top: 15px; padding-left: 110px;">
 						<?php the_title(); ?>
 					</h3><!--/h3-->
 				</div><!--/div .wrapper-->
@@ -16,9 +16,7 @@
 		</header>
 		<section id="content">
 			<div class="wrapper cf padleft">
-				<div id="posts" style="margin-top: 100px;">
-
-					</div>
+				<div id="posts" style="margin-top: 90px;">
 					<br><br><br>
 					<?php
 						if ( have_posts() ) : while ( have_posts() ) : the_post();

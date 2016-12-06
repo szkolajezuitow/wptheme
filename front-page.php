@@ -17,51 +17,27 @@
 
 <?php } else { ?>
 			<div class="wide-header">
-				<div class="wide-nav">
-
-				</div>
-				<div id="subheader" style="background-image: url('<?php
-				if ( get_theme_mod( 'lawyeria_lite_frontpage_subheader_bg', get_template_directory_uri() . "/images/full-header.jpg" ) ) {
-					echo get_theme_mod( 'lawyeria_lite_frontpage_subheader_bg',get_template_directory_uri() . "/images/tlo.jpg" );
-				}
-				?>');">
+				<div class="wide-nav"></div>
+				<div id="subheader">
 
 					<div class="subheader-color cf">
 						<div class="wrapper cf">
 							<div class="motto"><h3>Szkoła Podstawowa Jezuitów</h3></div>
-							<div class="full-header-content full-header-content-no-sidebar" style="padding-top: 100px">
+							<div class="full-header-content full-header-content-no-sidebar">
 
-								<?php
-								if ( get_theme_mod( 'lawyeria_lite_frontpage_header_title','Lorem ipsum dolor sit amet, consectetur adipscing elit.' ) ) {
-									echo '<h3>';
-									echo get_theme_mod( 'lawyeria_lite_frontpage_header_title','Lorem ipsum dolor sit amet, consectetur adipscing elit.' );
-									echo '</h3>';
-								}
-								?>
 
-								<?php
-								if ( get_theme_mod( 'lawyeria_lite_frontpage_header_content','Ut fermentum aliquam neque, sit amet molestie orci porttitor sit amet. Mauris venenatis et tortor ut ultrices. Nam a neque venenatis, tristique lacus id, congue augue. In id tellus lacus. In porttitor sagittis tellus nec iaculis. Nunc sem odio, placerat a diam vel, varius.' )) {
-									echo '<p>';
-									echo get_theme_mod( 'lawyeria_lite_frontpage_header_content','Ut fermentum aliquam neque, sit amet molestie orci porttitor sit amet. Mauris venenatis et tortor ut ultrices. Nam a neque venenatis, tristique lacus id, congue augue. In id tellus lacus. In porttitor sagittis tellus nec iaculis. Nunc sem odio, placerat a diam vel, varius.' );
-									echo '</p>';
-								}
-								?>
+                                <div class="baner">   <?php masterslider(3); ?> </div>
 							</div><!--/div .header-content-->
 						</div><!--/div .wrapper-->
 					</div><!--/div .full-header-color-->
 				</div><!--/div #subheader-->
-
-
 			</div><!--/div .wide-header-->
-
-
 			</header><!--/header-->
-
 			<section id="content">
 				<div class="wrapper cf">
 					<div id="posts" style="width: 962px">
 						<div id="postSpace">
-                            <div style="position: relative; margin-bottom: 10px; font-size: x-large;"><a href="onas/informacje">Aktualności</a></div>
+            <div style="position: relative; margin-bottom: 10px; font-size: x-large; padding-top: 20px;"><a href="http://jezuici.edu.pl/podstawowa/?page_id=108">Aktualności</a></div>
 						<?php
 						$cat = get_cat_ID('wazne');
 						query_posts('cat='.$cat);
@@ -87,7 +63,6 @@
             <section id="features">
                 <div class="wrapper cf">
                     <div class="features-box">
-
 
                         <?php
                         if ( get_theme_mod( 'lawyeria_lite_frontpage_firstlybox_icon',get_template_directory_uri().'/images/features-box-icon-one.png' ) ) {

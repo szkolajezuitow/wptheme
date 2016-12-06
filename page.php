@@ -7,8 +7,8 @@
 		get_header();
 		?>
   			<section class="wide-nav">
-				<div class="wrapper padleft" >
-					<h3 style="margin-top: 15px;">
+				<div class="wrapper">
+					<h3 style="margin-top: 15px; padding-left: 110px;">
 						<?php the_title(); ?>
                         </h3><!--/h3-->
 				</div><!--/div .wrapper-->
