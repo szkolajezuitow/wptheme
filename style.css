@@ -3450,6 +3450,11 @@ p.lawyers-no-posts {
     float: none;
   }
 
+  #map {
+    display: none;
+  }
+
+
   .wrapper .header-contact {
       width: 100%;
       margin-bottom: 30px;
@@ -3758,7 +3763,7 @@ p.lawyers-no-posts {
   .responsivemenu ul li {
     width: 100%;
     height: auto;
-    text-align: center;
+    text-align: left;
     padding: 0;
     margin: 0;
   }
