@@ -3758,7 +3758,7 @@ p.lawyers-no-posts {
   .responsivemenu ul li {
     width: 100%;
     height: auto;
-    text-align: center;
+    text-align: left;
     padding: 0;
     margin: 0;
   }

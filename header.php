@@ -51,6 +51,7 @@
                     </div><!--/.header-contact-->
                 </div>
             </div>
+
 			<div class="wrapper">
 			<?php 
 					$has_header = get_header_image(); 
